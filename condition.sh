@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+# reference website to get the bash logical operator : https://linuxhint.com/bash_operator_examples/
 a=5
 b=10
 c=10
