@@ -1,10 +1,8 @@
-#####################################################
-#													#
-#	Name: Kelvin Kedyson 							#
-#	Email1: kelvink.zacharia@udsm.ac.tz				#
-#	Email2: kelvinkedysonzacharia@gmail.			#
-#	age(2020) : 21									#
-#	Professional: Telecommunications engineering	#
-#	Interest: IoT, Web programming and Automation 	#
-#													#
-#####################################################
+
+Name: Kelvin Kedyson		
+Email1: kelvink.zacharia@udsm.ac.tz
+Email2: kelvinkedysonzacharia@gmail.
+age(2020) : 21
+Professional: Telecommunications engineering
+Interest: IoT, Web programming and Automation
+Nationality: Tanzanian
