@@ -31,3 +31,12 @@ echo ''
 doubleNo=1.33
 echo $doubleNo
 echo ''
+
+fruit="Apple"
+echo "${name} says \"${fruit} is sweet\""
+echo ''
+
+numberOne=10
+numberTwo=$( expr $numberOne + 2)
+total=$(expr $numberOne + $numberTwo) #this calculates the sum in integers
+echo "The sum of ${numberOne} and ${numberTwo} is : $total"
