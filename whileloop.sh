@@ -11,3 +11,10 @@ do
 	read name
 	echo "Name entered : $name"
 done
+
+# using while loop to read from files
+# reading from file named profile.txt
+while read line
+do
+	echo $line
+done < profile.txt
