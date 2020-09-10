@@ -51,3 +51,8 @@ elif [ $c -le 2 ]
 else
 	echo "$c is neither equal to or less than 10"
 fi
+
+#another format of writing if..else
+passMark=67
+
+[ $passMark -ge 70 ] && echo "Passed" || echo "Failed" # print out Passed when the condition is true and when false print out Failed
