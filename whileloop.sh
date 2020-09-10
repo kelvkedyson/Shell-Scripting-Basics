@@ -17,4 +17,4 @@ done
 while read line
 do
 	echo $line
-done < profile.txt
+done < profile.txt # < sign means reading from file
