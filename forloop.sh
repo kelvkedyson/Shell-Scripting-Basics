@@ -18,7 +18,7 @@ do
 done
 
 echo ''
-echo "======= AVAILABLE FILES IN THIS DIRECTOR ======="
+echo "======= AVAILABLE FILES IN THIS DIRECTORY ======="
 #printing all the files in a directory
 
 for fileName in *
