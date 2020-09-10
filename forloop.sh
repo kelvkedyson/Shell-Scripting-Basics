@@ -6,5 +6,5 @@
 #printing the Hello World 5 times
 for i in {1..5}
 do
-	echo "Hello World"
+	echo "$i : Hello World"
 done
