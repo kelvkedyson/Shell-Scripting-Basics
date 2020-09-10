@@ -25,3 +25,15 @@ for fileName in *
 do
 	echo "file name : $fileName"
 done
+
+#printing only a specifid range
+echo ''
+echo "======= PRINT BTN 5 AND 10 ======="
+for i in {1..15}
+do 
+	if [ "$i" -ge 5 -a "$i" -le 10 ] 
+	then
+		#statements
+		echo "i : ${i}"
+	fi
+done
