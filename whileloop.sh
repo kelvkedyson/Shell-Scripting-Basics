@@ -10,9 +10,4 @@ do
 	echo "Enter your name : "
 	read name
 	echo "Name entered : $name"
-	if [ -n "$name" ] 
-	then
-		#statements
-		echo "You entered No name"
-	fi
 done
