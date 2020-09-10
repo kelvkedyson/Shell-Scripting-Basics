@@ -10,7 +10,7 @@ do
 done
 
 echo ''
-echo "Alternatively"
+echo "======= Alternatively ======="
 #alternatively, NB: the order of the numeber sequence does not matter, it is not a must to be consecutive
 for i in 3 4 5 6
 do
@@ -18,7 +18,7 @@ do
 done
 
 echo ''
-echo "Printing all the files in the current directory"
+echo "======= AVAILABLE FILES IN THIS DIRECTOR ======="
 #printing all the files in a directory
 
 for fileName in *
