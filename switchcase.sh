@@ -22,7 +22,7 @@
 		then
 		#statements
 		echo "$number is less than 1:NOT ALLOWED"
-	elif [$number -ge 5] 
+	elif [ $number -ge 5] 
 		then
 		#statements
 		echo "$number is greater than 5: OUT OF RANGE"
