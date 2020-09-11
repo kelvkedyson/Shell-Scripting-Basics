@@ -54,3 +54,16 @@ processID(){
 }
 
 processID
+echo ''
+
+#function to check if there is a file or files in the Desktop directory
+#using $? when $? is equal to zero then there is a file or files otherwise no file
+
+ls ~/Desktop
+if [[ "$?" -eq 0 ]] 
+then
+	#statements
+	echo "The Directory Desktop is not empty, there is a file(s)"
+else
+	echo "The Directory Desktop is empty, there is no file"
+fi
