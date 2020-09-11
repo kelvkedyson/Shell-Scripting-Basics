@@ -14,8 +14,9 @@ cat sample.txt
 echo ''
 
 #using while loop to read line by line from the file sample.txt
+echo "======= READING LINE BY LINE ======="
 while read line
 do
 	#statements
 	echo "$line"
-done < sample.txt
+done < sample.txt #this tells to read from the file sample.txt
