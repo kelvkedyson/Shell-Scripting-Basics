@@ -59,8 +59,8 @@ echo ''
 #function to check if there is a file or files in the Desktop directory
 #using $? when $? is equal to zero then there is a file or files otherwise no file
 
-ls ~/Desktop/Testing
-if [[ "$?" -eq 0 ]] 
+ls ~/Desktop
+if [ "$?" -eq "0" ] 
 then
 	#statements
 	echo "The Directory Desktop is not empty, there is a file(s)"
