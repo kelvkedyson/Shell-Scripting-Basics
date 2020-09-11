@@ -23,8 +23,11 @@ showParam Kedyson
 
 #function that has three arguments
 showDetails(){
+
 	echo "Full name : $1 $2" #getting the first two arguments
 	echo "Age(2020) : $3" #getting that third argument
+	echo ''
+	echo "Arguments passed are : $@" #$@ means all arguments (variables passed when calling the function)
 }
 
 #calling the function and pass the arguments
