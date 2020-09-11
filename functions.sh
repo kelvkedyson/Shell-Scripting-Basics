@@ -19,3 +19,12 @@ showParam(){
 
 #calling the function and pass argument Kedyson
 showParam Kedyson
+
+#function that has three arguments
+showDetails(){
+	echo "Full name : $1 $2" #getting the first two arguments
+	echo "Age(2020) : $3" #getting that third argument
+}
+
+#calling the function and pass the arguments
+showDetails Kelvin Kedyson 21
