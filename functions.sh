@@ -47,7 +47,7 @@ echo ''
 #$$ means a process ID
 processID(){
 	echo "======= PROCESS ID ======="
-	echo "Process ID : $$"
+	echo "Process ID : $$" #this may be different on different sessions
 }
 
 processID
