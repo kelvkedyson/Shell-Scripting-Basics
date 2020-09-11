@@ -19,6 +19,7 @@ showParam(){
 
 #calling the function and pass argument Kedyson
 showParam Kedyson
+ echo ''
 
 #function that has three arguments
 showDetails(){
@@ -28,3 +29,14 @@ showDetails(){
 
 #calling the function and pass the arguments
 showDetails Kelvin Kedyson 21
+echo ''
+
+#function that has a string argument
+showProfile(){
+	echo "Full name : $1" #calling a string
+	echo "Age(2020) : $2"
+	echo "Professional : $3" #calling a string
+	echo "Nationality : $4"
+}
+
+showProfile "Kelvin Kedyson" 21 "Telecommunicatins engineering" Tanzanian
