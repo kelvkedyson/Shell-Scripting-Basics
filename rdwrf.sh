@@ -25,10 +25,8 @@ echo ''
 #writing multilines to the file
 echo "WRITING MULTILINES TO THE FILE"
 
-<<EOF > users.txt
+cat <<EOF > users.txt
 1. Aneth Kedyson
 2. Irene Kedyson
 3. Kelvin Kedyson
 EOF
-
-cat users.txt
