@@ -40,6 +40,7 @@ showProfile(){
 	echo "Age(2020) : $2"
 	echo "Professional : $3" #calling a string
 	echo "Nationality : $4"
+	echo "Number of argments passed : $#" #$# means the number of parameters passed when the function is called
 }
 
 showProfile "Kelvin Kedyson" 21 "Telecommunications engineering" Tanzanian
