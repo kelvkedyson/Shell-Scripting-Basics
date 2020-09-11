@@ -26,3 +26,6 @@ do
 	fi
 	echo "i : $i"
 done
+
+# Continue statement means skip the value and continue with the loop
+# Break statement means stop the loop and go to the next code
