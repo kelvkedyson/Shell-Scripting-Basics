@@ -20,3 +20,15 @@ do
 	#statements
 	echo "$line"
 done < sample.txt #this tells to read from the file sample.txt
+echo ''
+
+#writing multilines to the file
+echo "WRITING MULTILINES TO THE FILE"
+
+<<EOF > users.txt
+1. Aneth Kedyson
+2. Irene Kedyson
+3. Kelvin Kedyson
+EOF
+
+cat users.txt
