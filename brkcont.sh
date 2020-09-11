@@ -11,7 +11,7 @@ do
 		#statements
 		continue
 	fi
-	echo "$i"
+	echo "i : $i"
 done
 
 echo ''
@@ -24,5 +24,5 @@ do
 		#statements
 		break
 	fi
-	echo "$i"
+	echo "i : $i"
 done
