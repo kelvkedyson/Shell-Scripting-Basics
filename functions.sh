@@ -41,3 +41,13 @@ showProfile(){
 }
 
 showProfile "Kelvin Kedyson" 21 "Telecommunications engineering" Tanzanian
+echo ''
+
+#function that prints the process ID
+#$$ means a process ID
+processID(){
+	echo "======= PROCESS ID ======="
+	echo "Process ID : $$"
+}
+
+processID
